@@ -10,7 +10,7 @@ function App() {
     const employee = { name, designation };
 
     try {
-      const response = await fetch('http://13.204.77.201:9090/api/employees', {
+      const response = await fetch('http://3.109.56.188:9090/api/employees', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
